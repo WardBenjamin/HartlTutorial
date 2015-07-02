@@ -4,6 +4,8 @@ ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
+# Use BCrypt for password encryption
+gem 'bcrypt'
 # Use Bootstrap for responsive design and prettier pages
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets
