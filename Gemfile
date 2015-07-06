@@ -6,8 +6,13 @@ ruby '2.2.2'
 gem 'rails', '4.2.1'
 # Use BCrypt for password encryption
 gem 'bcrypt'
+# Use Faker to make sample users with semi-realistic names and email addresses
+gem 'faker'
 # Use Bootstrap for responsive design and prettier pages
 gem 'bootstrap-sass'
+# Pagination!
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
