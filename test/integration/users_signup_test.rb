@@ -16,6 +16,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   end
 
   test "valid signup information with account activation" do
+    ActionMailer::Base.deliveries.clear
     get signup_path
     assert_difference 'User.count', 1 do
       post users_path, user: { name:  "Example User",
