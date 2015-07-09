@@ -8,6 +8,10 @@ gem 'rails', '4.2.1'
 gem 'bcrypt'
 # Use Faker to make sample users with semi-realistic names and email addresses
 gem 'faker'
+# Image-y things
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use Bootstrap for responsive design and prettier pages
 gem 'bootstrap-sass'
 # Pagination!
